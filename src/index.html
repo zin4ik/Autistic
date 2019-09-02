@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Autistic</title>
+	<title>Autistic</title>
+	
+	<!--calendar-->
+	<link href='//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css' rel='stylesheet' type='text/css'>
 
     <!--fontawesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -62,7 +65,8 @@
 			<div class="col-lg-6 col-xl-6 col-md-8 col-sm-10 mt-2 mb-2 d-flex flex-wrap justify-content-around align-items-center select_input">
 				<span class="select_txt">Select Destination</span>
 				<a href="https://www.google.com/maps" class="select_icon"><i class="fas fa-map-marker-alt"></i></a>
-				<span class="select_txt ">From</span>
+				<!-- <span class="select_txt ">From</span> -->
+				<input type="text" class="calendar" name="date" value="" placeholder="From">
 				<a href="#" class="select_icon "><i class="far fa-calendar"></i>
 				</a>
 				<span class="select_txt ">To</span>
@@ -774,11 +778,6 @@
 </div>
 
 	</footer>
-
-
-
-
-
 
 </body>
 </html>

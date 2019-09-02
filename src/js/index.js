@@ -7,7 +7,8 @@ import '../scss/main.scss';
 
 /*js/jsx file*/
 import '../bootstrap-castum/castum-bootstrap.js';
-import './slider';
+import './slider.js';
+import './calendar.js'
 
 
 
