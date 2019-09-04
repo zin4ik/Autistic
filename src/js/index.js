@@ -6,6 +6,7 @@ import '../scss/main.scss';
 
 
 /*js/jsx file*/
+import './jqueryui'
 import '../bootstrap-castum/castum-bootstrap.js';
 import './slider.js';
 import './calendar.js'
